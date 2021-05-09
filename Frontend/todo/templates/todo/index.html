@@ -12,7 +12,7 @@
     <!-- Barra de Navegación-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand mb-0 h1" href="#">Proyecto 3</a>
+          <a class="navbar-brand mb-0 h1" href="localhost:8000/">Proyecto 3</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -70,7 +70,7 @@
                 <textarea class="form-control" id="textAreaEntrada" rows="36"></textarea>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Reset</button>
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal" onclick="limpiarTextAreas()">Reset</button>
                 <p>Salida</p>
                 <textarea class="form-control" id="textAreaEntrada" rows="36"></textarea>   
             </div>
@@ -98,6 +98,22 @@
                 lectura.readAsText(archivo)
             }
             console.log('Sin archivo seleccionado ' + document.getElementById('archivo').files[0]);
+        }
+
+        function reqListener() {
+            console.log(this.responseText);
+            alert(this.responseText)
+        }
+
+        function limpiarTextAreas() {
+            let textAreaEntrada_ = document.querySelector('#textAreaEntrada');
+            textAreaEntrada_.value = '';
+            
+            var oReq= new XMLHttpRequest();
+            oReq.addEventListener('load', reqListener);
+            oReq.open('GET', 'http://localhost:5000/reset');
+            oReq.send();
+
         }
 
         function enviar() {
