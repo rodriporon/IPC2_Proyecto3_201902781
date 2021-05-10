@@ -6,39 +6,85 @@
 		<REPORTADO_POR>
 			<USUARIO>
 				<EMAIL>bart@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
 			</USUARIO>
 		</REPORTADO_POR>
+		<AFECTADOS>
+			<AFECTADO>homero@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>lisa@ing.usac.edu.gt</AFECTADO>
+		</AFECTADOS>
+		<ERRORES>
+			<ERROR>
+				<CODIGO>20001</CODIGO>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
+			</ERROR>
+		</ERRORES>
 		<REPORTADO_POR>
 			<USUARIO>
 				<EMAIL>homero@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
 			</USUARIO>
 		</REPORTADO_POR>
+		<AFECTADOS>
+			<AFECTADO>bart@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>lisa@ing.usac.edu.gt</AFECTADO>
+		</AFECTADOS>
+		<ERRORES>
+			<ERROR>
+				<CODIGO>20002</CODIGO>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
+			</ERROR>
+		</ERRORES>
 		<REPORTADO_POR>
 			<USUARIO>
 				<EMAIL>barni@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
 			</USUARIO>
 		</REPORTADO_POR>
+		<AFECTADOS>
+			<AFECTADO>homero@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>lisa@ing.usac.edu.gt</AFECTADO>
+		</AFECTADOS>
+		<ERRORES>
+			<ERROR>
+				<CODIGO>20003</CODIGO>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
+			</ERROR>
+		</ERRORES>
 		<REPORTADO_POR>
 			<USUARIO>
 				<EMAIL>nelson@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
 			</USUARIO>
 		</REPORTADO_POR>
+		<AFECTADOS>
+			<AFECTADO>edna@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>bart@ing.usac.edu.gt</AFECTADO>
+		</AFECTADOS>
+		<ERRORES>
+			<ERROR>
+				<CODIGO>20001</CODIGO>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
+			</ERROR>
+		</ERRORES>
 		<REPORTADO_POR>
 			<USUARIO>
 				<EMAIL>Ralph321@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
 			</USUARIO>
 		</REPORTADO_POR>
-		<REPORTADO_POR>
-			<USUARIO>
-				<EMAIL>nelson@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
-			</USUARIO>
-		</REPORTADO_POR>
+		<AFECTADOS>
+			<AFECTADO>bart@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>lisa@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>moe@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>skinner@ing.usac.edu.gt</AFECTADO>
+		</AFECTADOS>
+		<ERRORES>
+			<ERROR>
+				<CODIGO>20004</CODIGO>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
+			</ERROR>
+		</ERRORES>
 	</ESTADISTICA>
 	<ESTADISTICA>
 		<FECHA>25/04/20</FECHA>
@@ -46,33 +92,72 @@
 		<REPORTADO_POR>
 			<USUARIO>
 				<EMAIL>barni@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
+				<CANTIDAD_MENSAJES>2</CANTIDAD_MENSAJES>
 			</USUARIO>
 		</REPORTADO_POR>
+		<AFECTADOS>
+			<AFECTADO>homero@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>lisa@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>moe@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>bart@ing.usac.edu.gt</AFECTADO>
+		</AFECTADOS>
+		<ERRORES>
+			<ERROR>
+				<CODIGO>20003</CODIGO>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
+			</ERROR>
+		</ERRORES>
 		<REPORTADO_POR>
 			<USUARIO>
 				<EMAIL>lisa@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
 			</USUARIO>
 		</REPORTADO_POR>
+		<AFECTADOS>
+			<AFECTADO>moe@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>bart@ing.usac.edu.gt</AFECTADO>
+		</AFECTADOS>
+		<ERRORES>
+			<ERROR>
+				<CODIGO>20002</CODIGO>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
+			</ERROR>
+		</ERRORES>
 		<REPORTADO_POR>
 			<USUARIO>
 				<EMAIL>nelson@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
 			</USUARIO>
 		</REPORTADO_POR>
+		<AFECTADOS>
+			<AFECTADO>moe@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>bart@ing.usac.edu.gt</AFECTADO>
+		</AFECTADOS>
+		<ERRORES>
+			<ERROR>
+				<CODIGO>20003</CODIGO>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
+			</ERROR>
+		</ERRORES>
 		<REPORTADO_POR>
 			<USUARIO>
 				<EMAIL>Ralph321@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
 			</USUARIO>
 		</REPORTADO_POR>
-		<REPORTADO_POR>
-			<USUARIO>
-				<EMAIL>nelson@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
-			</USUARIO>
-		</REPORTADO_POR>
+		<AFECTADOS>
+			<AFECTADO>apu@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>ned@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>edna@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>moe@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>bart@ing.usac.edu.gt</AFECTADO>
+		</AFECTADOS>
+		<ERRORES>
+			<ERROR>
+				<CODIGO>20003</CODIGO>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
+			</ERROR>
+		</ERRORES>
 	</ESTADISTICA>
 	<ESTADISTICA>
 		<FECHA>30/04/20</FECHA>
@@ -80,33 +165,56 @@
 		<REPORTADO_POR>
 			<USUARIO>
 				<EMAIL>mrburns@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
+				<CANTIDAD_MENSAJES>2</CANTIDAD_MENSAJES>
 			</USUARIO>
 		</REPORTADO_POR>
+		<AFECTADOS>
+			<AFECTADO>apu@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>ned@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>edna@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>moe@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>bart@ing.usac.edu.gt</AFECTADO>
+		</AFECTADOS>
+		<ERRORES>
+			<ERROR>
+				<CODIGO>20004</CODIGO>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
+			</ERROR>
+		</ERRORES>
 		<REPORTADO_POR>
 			<USUARIO>
 				<EMAIL>milhouse@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
 			</USUARIO>
 		</REPORTADO_POR>
+		<AFECTADOS>
+			<AFECTADO>homero@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>lisa@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>bart@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>moe@ing.usac.edu.gt</AFECTADO>
+		</AFECTADOS>
+		<ERRORES>
+			<ERROR>
+				<CODIGO>20003</CODIGO>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
+			</ERROR>
+		</ERRORES>
 		<REPORTADO_POR>
 			<USUARIO>
 				<EMAIL>Ralph321@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
 			</USUARIO>
 		</REPORTADO_POR>
-		<REPORTADO_POR>
-			<USUARIO>
-				<EMAIL>Ralph321@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
-			</USUARIO>
-		</REPORTADO_POR>
-		<REPORTADO_POR>
-			<USUARIO>
-				<EMAIL>milhouse@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
-			</USUARIO>
-		</REPORTADO_POR>
+		<AFECTADOS>
+			<AFECTADO>homero@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>lisa@ing.usac.edu.gt</AFECTADO>
+		</AFECTADOS>
+		<ERRORES>
+			<ERROR>
+				<CODIGO>20001</CODIGO>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
+			</ERROR>
+		</ERRORES>
 	</ESTADISTICA>
 	<ESTADISTICA>
 		<FECHA>15/04/20</FECHA>
@@ -114,8 +222,18 @@
 		<REPORTADO_POR>
 			<USUARIO>
 				<EMAIL>carl092@ing.usac.edu.gt</EMAIL>
-				<CANTIDAD_MENSAJES/>
+				<CANTIDAD_MENSAJES>3</CANTIDAD_MENSAJES>
 			</USUARIO>
 		</REPORTADO_POR>
+		<AFECTADOS>
+			<AFECTADO>martin@ing.usac.edu.gt,</AFECTADO>
+			<AFECTADO>maggy@ing.usac.edu.gt</AFECTADO>
+		</AFECTADOS>
+		<ERRORES>
+			<ERROR>
+				<CODIGO>20004</CODIGO>
+				<CANTIDAD_MENSAJES>1</CANTIDAD_MENSAJES>
+			</ERROR>
+		</ERRORES>
 	</ESTADISTICA>
 </ESTADISTICAS>

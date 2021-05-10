@@ -26,13 +26,19 @@
                   Peticiones
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Consultar datos</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="cargarTextAreaSalida()">Consultar datos</a></li>
                   <li><a class="dropdown-item" href="#">Filtrar información por fecha y usuario</a></li>
                   <li><a class="dropdown-item" href="#">Filtrar por fecha y código de error</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ayuda</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ayuda
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalInformacion">Información del Estudiante</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="mostrarDocumentacion()">Documentación</a></li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -59,8 +65,28 @@
     </div>
     <!--Fin Modal-->
 
-    <!--Columnas-->
+    <!-- Modal -->
+    <div class="modal fade" id="modalInformacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Información del Estudiante</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Rodrigo Antonio Porón De León</p>
+                <p>201902781</p>
+                <p>Introducción a la Programación y Computación 2</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--Fin Modal-->
 
+    <!--Columnas-->
 
     <div class="container">
         <div class="row justify-content-between">
@@ -72,7 +98,7 @@
             <div class="col">
                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal" onclick="limpiarTextAreas()">Reset</button>
                 <p>Salida</p>
-                <textarea class="form-control" id="textAreaEntrada" rows="36"></textarea>   
+                <textarea class="form-control" id="textAreaSalida" rows="36"></textarea>   
             </div>
         </div>
     </div>
@@ -86,6 +112,7 @@
 
         function cargarTextArea() {
             const input = document.getElementById('archivo');
+            console.log(input)
             if(input.files && input.files[0]) {
                 console.log('File seleccionado : ', input.files[0]);
                 let textAreaIn = document.querySelector('#textAreaEntrada');
@@ -98,6 +125,25 @@
                 lectura.readAsText(archivo)
             }
             console.log('Sin archivo seleccionado ' + document.getElementById('archivo').files[0]);
+        }
+
+        function cargarTextAreaSalida() {
+            var req = new XMLHttpRequest();
+            req.open('GET', 'http://localhost:5000/consultar', true);
+            req.onreadystatechange = function (aEvt) {
+                if (req.readyState == 4) {
+                    if (req.status == 200) {
+                        console.log(req.responseText);
+                        let textAreaSalida_ = document.querySelector('#textAreaSalida');
+                        textAreaSalida_.value = req.responseText
+                    }
+                        else {
+                        console.log("Error loading page\n");
+                        }
+                }
+            };
+            req.send(null)
+
         }
 
         function reqListener() {
