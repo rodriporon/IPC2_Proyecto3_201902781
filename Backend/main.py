@@ -1,4 +1,5 @@
 import re
+import os
 import xml.etree.ElementTree as ET
 from flask import Flask, json
 from flask import jsonify
@@ -45,7 +46,8 @@ def data():
     eventos = []
     for evento in root:
         eventos.append(Data(evento.text).obtenerDatos())
-    print(eventos)
+        print(evento.text)
+    #print(eventos)
     contador = 0
     for evento in eventos:
         for key in evento:
@@ -116,6 +118,14 @@ def consultar():
     contenido = ''.join(file.readlines())
     file.close()
     return contenido
+
+@app.route('/documentacion', methods=['GET'])
+def documentacion():
+    if request.method != 'GET':
+        return 'Petición no válida'
+    file = "EnsayoProyecto3.pdf"
+    os.popen(file)
+    return 'Abriendo documentacion...'
 
 
 if __name__ == "__main__":
